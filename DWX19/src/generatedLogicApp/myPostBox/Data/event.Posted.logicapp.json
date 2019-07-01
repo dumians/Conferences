@@ -1,0 +1,68 @@
+{
+     "$connections": {
+        "value": {
+            "blockchainethereum": {
+                "connectionId": "/subscriptions/33b85ecf-72a0-4f68-9ca2-a3c4c57d9568/resourceGroups/",
+                "connectionName": "",
+                "id": "/subscriptions/33b85ecf-72a0-4f68-9ca2-a3c4c57d9568/providers/Microsoft.Web/locations/westeurope/managedApis/blockchainethereum"
+            },
+            "sql": {
+                "connectionId": "/subscriptions/33b85ecf-72a0-4f68-9ca2-a3c4c57d9568/resourceGroups/",
+                "connectionName": "",
+                "id": "/subscriptions/33b85ecf-72a0-4f68-9ca2-a3c4c57d9568/providers/Microsoft.Web/locations/westeurope/managedApis/sql"
+            }
+        }
+    },
+    "definition": {
+    "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+                "$connections": {
+                    "defaultValue": {
+                    },
+            "type": "Object"
+        }
+    },
+        "triggers": {
+            "When_a_smart_contract_event_occurs": {
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['blockchainethereum']['connectionId']"
+                        }
+                    },
+                    "method": "get",
+                    "path": "/contract/OnNewEvent",
+                    "queries": {
+                            "abi": "[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"message\",\"type\":\"string\"}],\"name\":\"Posted\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"name\":\"text\",\"type\":\"string\"}],\"name\":\"postMsg\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getMsg\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getCount\",\"outputs\":[{\"name\":\"\",\"type\":\"int64\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}]",
+"contractAddress": "https://dwx19.blockchain.azure.com:3200/H8mYTyhdkumn3GmyqS7SPwrp",
+"eventName": "Posted"
+        }
+                },
+                "recurrence": {
+                    "frequency": "Minute",
+                    "interval": 3
+                },
+                "type": "ApiConnection"
+            }
+        },
+"actions": {
+            "Insert_row": {
+                "inputs": {
+                    "body": {
+                        "message": "@triggerBody()?['message']"
+                    },
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['sql']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/datasets/default/tables/@{encodeURIComponent(encodeURIComponent('[dbo].[Posted]'))}/items"
+                },
+                "runAfter": {},
+                "type": "ApiConnection"
+            }
+        }
+    }
+}

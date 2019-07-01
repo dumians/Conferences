@@ -1,0 +1,413 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23.05.2019 06:50:38.
+Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "C:\github\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\github\vcpkg\installed\x86-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\github\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\3.12.4\CompilerIdC\.\CompilerIdC.exe
+AppLocalFromInstalled:
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\github\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\3.12.4\CompilerIdC\.\CompilerIdC.exe" "C:\github\vcpkg\installed\x86-windows\debug\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.97
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/3.12.4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23.05.2019 06:50:40.
+Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "C:\github\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\github\vcpkg\installed\x86-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\github\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\3.12.4\CompilerIdCXX\.\CompilerIdCXX.exe
+AppLocalFromInstalled:
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\github\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\3.12.4\CompilerIdCXX\.\CompilerIdCXX.exe" "C:\github\vcpkg\installed\x86-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/3.12.4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_eadc0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23.05.2019 06:50:42.
+Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_eadc0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_eadc0.dir\Debug\".
+  Creating directory "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_eadc0.dir\Debug\cmTC_eadc0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_eadc0.dir\Debug\cmTC_eadc0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "C:\github\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eadc0.dir\Debug\\" /Fd"cmTC_eadc0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27031.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eadc0.dir\Debug\\" /Fd"cmTC_eadc0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  testCCompiler.c
+  
+Link:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_eadc0.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\github\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_eadc0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_eadc0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_eadc0.dir\Debug\testCCompiler.obj
+  cmTC_eadc0.vcxproj -> C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_eadc0.exe
+AppLocalFromInstalled:
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\github\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_eadc0.exe" "C:\github\vcpkg\installed\x86-windows\debug\bin" "cmTC_eadc0.dir\Debug\cmTC_eadc0.tlog\cmTC_eadc0.write.1u.tlog" "cmTC_eadc0.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Deleting file "cmTC_eadc0.dir\Debug\cmTC_eadc0.tlog\unsuccessfulbuild".
+  Touching "cmTC_eadc0.dir\Debug\cmTC_eadc0.tlog\cmTC_eadc0.lastbuildstate".
+Done Building Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_eadc0.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_fc089.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23.05.2019 06:50:44.
+Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_fc089.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fc089.dir\Debug\".
+  Creating directory "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fc089.dir\Debug\cmTC_fc089.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fc089.dir\Debug\cmTC_fc089.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "C:\github\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc089.dir\Debug\\" /Fd"cmTC_fc089.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\github\vcpkg\downloads\tools\cmake-3.12.4-windows\cmake-3.12.4-win32-x86\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27031.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc089.dir\Debug\\" /Fd"cmTC_fc089.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\github\vcpkg\downloads\tools\cmake-3.12.4-windows\cmake-3.12.4-win32-x86\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc089.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\github\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc089.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc089.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_fc089.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_fc089.vcxproj -> C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc089.exe
+AppLocalFromInstalled:
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\github\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc089.exe" "C:\github\vcpkg\installed\x86-windows\debug\bin" "cmTC_fc089.dir\Debug\cmTC_fc089.tlog\cmTC_fc089.write.1u.tlog" "cmTC_fc089.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Deleting file "cmTC_fc089.dir\Debug\cmTC_fc089.tlog\unsuccessfulbuild".
+  Touching "cmTC_fc089.dir\Debug\cmTC_fc089.tlog\cmTC_fc089.lastbuildstate".
+Done Building Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_fc089.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6342b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23.05.2019 06:50:46.
+Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_6342b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6342b.dir\Debug\".
+  Creating directory "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6342b.dir\Debug\cmTC_6342b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6342b.dir\Debug\cmTC_6342b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "C:\github\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6342b.dir\Debug\\" /Fd"cmTC_6342b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\feature_tests.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27031.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6342b.dir\Debug\\" /Fd"cmTC_6342b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\feature_tests.c
+  feature_tests.c
+  
+Link:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_6342b.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\github\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_6342b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_6342b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6342b.dir\Debug\feature_tests.obj
+  cmTC_6342b.vcxproj -> C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_6342b.exe
+AppLocalFromInstalled:
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\github\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_6342b.exe" "C:\github\vcpkg\installed\x86-windows\debug\bin" "cmTC_6342b.dir\Debug\cmTC_6342b.tlog\cmTC_6342b.write.1u.tlog" "cmTC_6342b.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Deleting file "cmTC_6342b.dir\Debug\cmTC_6342b.tlog\unsuccessfulbuild".
+  Touching "cmTC_6342b.dir\Debug\cmTC_6342b.tlog\cmTC_6342b.lastbuildstate".
+Done Building Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_6342b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_bec10.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23.05.2019 06:50:47.
+Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_bec10.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bec10.dir\Debug\".
+  Creating directory "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bec10.dir\Debug\cmTC_bec10.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bec10.dir\Debug\cmTC_bec10.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "C:\github\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bec10.dir\Debug\\" /Fd"cmTC_bec10.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27031.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bec10.dir\Debug\\" /Fd"cmTC_bec10.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+Link:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_bec10.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\github\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_bec10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_bec10.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bec10.dir\Debug\testCXXCompiler.obj
+  cmTC_bec10.vcxproj -> C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_bec10.exe
+AppLocalFromInstalled:
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\github\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_bec10.exe" "C:\github\vcpkg\installed\x86-windows\debug\bin" "cmTC_bec10.dir\Debug\cmTC_bec10.tlog\cmTC_bec10.write.1u.tlog" "cmTC_bec10.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Deleting file "cmTC_bec10.dir\Debug\cmTC_bec10.tlog\unsuccessfulbuild".
+  Touching "cmTC_bec10.dir\Debug\cmTC_bec10.tlog\cmTC_bec10.lastbuildstate".
+Done Building Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_bec10.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_81d3a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23.05.2019 06:50:49.
+Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_81d3a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_81d3a.dir\Debug\".
+  Creating directory "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_81d3a.dir\Debug\cmTC_81d3a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_81d3a.dir\Debug\cmTC_81d3a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "C:\github\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_81d3a.dir\Debug\\" /Fd"cmTC_81d3a.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\github\vcpkg\downloads\tools\cmake-3.12.4-windows\cmake-3.12.4-win32-x86\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27031.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_81d3a.dir\Debug\\" /Fd"cmTC_81d3a.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\github\vcpkg\downloads\tools\cmake-3.12.4-windows\cmake-3.12.4-win32-x86\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_81d3a.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\github\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_81d3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_81d3a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_81d3a.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_81d3a.vcxproj -> C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_81d3a.exe
+AppLocalFromInstalled:
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\github\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_81d3a.exe" "C:\github\vcpkg\installed\x86-windows\debug\bin" "cmTC_81d3a.dir\Debug\cmTC_81d3a.tlog\cmTC_81d3a.write.1u.tlog" "cmTC_81d3a.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Deleting file "cmTC_81d3a.dir\Debug\cmTC_81d3a.tlog\unsuccessfulbuild".
+  Touching "cmTC_81d3a.dir\Debug\cmTC_81d3a.tlog\cmTC_81d3a.lastbuildstate".
+Done Building Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_81d3a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.49
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_76661.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23.05.2019 06:50:51.
+Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_76661.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_76661.dir\Debug\".
+  Creating directory "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_76661.dir\Debug\cmTC_76661.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_76661.dir\Debug\cmTC_76661.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "C:\github\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_76661.dir\Debug\\" /Fd"cmTC_76661.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27031.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\github\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_76661.dir\Debug\\" /Fd"cmTC_76661.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\feature_tests.cxx
+  feature_tests.cxx
+  
+Link:
+  C:\VisualStudio2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_76661.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\github\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\github\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_76661.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/HomeProjects/Conf/Adc++_19/samples/build/CMakeFiles/CMakeTmp/Debug/cmTC_76661.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_76661.dir\Debug\feature_tests.obj
+  cmTC_76661.vcxproj -> C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_76661.exe
+AppLocalFromInstalled:
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\github\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\Debug\cmTC_76661.exe" "C:\github\vcpkg\installed\x86-windows\debug\bin" "cmTC_76661.dir\Debug\cmTC_76661.tlog\cmTC_76661.write.1u.tlog" "cmTC_76661.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Deleting file "cmTC_76661.dir\Debug\cmTC_76661.tlog\unsuccessfulbuild".
+  Touching "cmTC_76661.dir\Debug\cmTC_76661.tlog\cmTC_76661.lastbuildstate".
+Done Building Project "C:\HomeProjects\Conf\Adc++_19\samples\build\CMakeFiles\CMakeTmp\cmTC_76661.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
