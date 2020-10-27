@@ -1,0 +1,39 @@
+
+
+RUN cd /tmp \
+    && wget https://github.com/Microsoft/CMake/releases/download/untagged-fb9b4dd1072bc49c0ba9/cmake-3.11.18033000-MSVC_2-Linux-x86_64.sh --no-check-certificate\
+    && chmod +x cmake-3.11.18033000-MSVC_2-Linux-x86_64.sh \
+    && ./cmake-3.11.18033000-MSVC_2-Linux-x86_64.sh --prefix=/usr/local --skip-license \
+    && rm cmake-3.11.18033000-MSVC_2-Linux-x86_64.sh
+
+RUN cd /tmp \
+    && git clone https://github.com/Microsoft/vcpkg.git -n -c http.sslVerify=false\ 
+    && cd vcpkg \
+    && git checkout 1d5e22919fcfeba3fe513248e73395c42ac18ae4 \
+    && ./bootstrap-vcpkg.sh -useSystemBinaries
+
+COPY x64-linux-musl.cmake /tmp/vcpkg/triplets/
+
+RUN VCPKG_FORCE_SYSTEM_BINARIES=1 ./tmp/vcpkg/vcpkg install boost-asio boost-filesystem fmt http-parser opencv restinio
+
+RUN mkdir out \
+    && cd out \
+    && cmake .. -DCMAKE_TOOLCHAIN_FILE=/tmp/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux-musl \
+    && make
+
+FROM alpine:latest as runtime
+
+LABEL description="Run container - Adcpp20"
+
+RUN apk update && apk add --no-cache \ 
+    libstdc++
+
+RUN mkdir /usr/local/adc
+COPY --from=build /src/haarcascade_frontalface_alt2.xml /usr/local/adc/haarcascade_frontalface_alt2.xml
+COPY --from=build /src/out/adcfindfaces /usr/local/faces/adcfindfaces
+
+WORKDIR /usr/local/adc
+
+CMD ./adcfindfaces
+
+EXPOSE 8080

@@ -1,0 +1,57 @@
+
+FROM gcc:latest as build
+
+LABEL description="Build c++ container toolchain - Adcpp20"
+# Copy the current folder which contains C++ source code to the Docker image under /usr/src
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    ca-certificates \
+    curl \
+    git \
+    tar \
+    unzip \
+    wget \
+    gdb \
+    gdbserver \
+    openssh-server \
+    rsync \
+    g++\
+    --fix-missing \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    g++-6
+
+RUN cd \tmp \
+    && git clone https://github.com/Microsoft/vcpkg -c http.sslVerify=false\ 
+    && cd vcpkg \
+    && ./bootstrap-vcpkg.sh 
+
+#RUN cd \tmp \
+#    && wget https://github.com/Microsoft/CMake/releases/download/untagged-fb9b4dd1072bc49c0ba9/cmake-3.11.18033000-MSVC_2-Linux-x86_64.sh \
+#    && chmod +x cmake-3.11.18033000-MSVC_2-Linux-x86_64.sh \
+#    && ./cmake-3.11.18033000-MSVC_2-Linux-x86_64.sh --prefix=/usr/local --skip-license \
+#    && rm cmake-3.11.18033000-MSVC_2-Linux-x86_64.sh
+
+#install packages - boost-filesystem boost-asio fmt http-parser opencv restinio
+#RUN ./tmp/vcpkg/vcpkg install boost-filesystem poco
+#RUN ./tmp/vcpkg/vcpkg integrate install
+
+#EXPOSE 8080
+
+#FROM debian:latest as runtime
+#LABEL description="Adc19 -Run container - Sample"
+
+RUN mkdir /usr/src/adc19
+COPY ./src /usr/src/adc19
+WORKDIR /usr/src/adc19
+
+# Use GCC to compile the Test.cpp source file
+RUN g++ -o Test main.cpp
+ 
+# Run the program output from the previous step
+CMD ["./Test"]
+
+
+  
